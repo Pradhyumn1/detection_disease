@@ -1,3 +1,5 @@
+
+
 # PlantVillage Classification Model
 
 This repository contains code for training a plant disease classification model using TensorFlow and deploying it using CI/CD pipelines.
@@ -49,5 +51,8 @@ Feel free to open issues or pull requests for improvements. Contributions are we
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+![image](https://github.com/Pradhyumn1/plant_dis/assets/73153956/bdcdf604-77d2-4cee-b998-4b52e60c7c8a)
+
+![image](https://github.com/Pradhyumn1/plant_dis/assets/73153956/0ec63447-a01f-447f-bd80-f8ec7113f8b0)
 
 
