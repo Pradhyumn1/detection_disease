@@ -1,3 +1,4 @@
+--upgrade pip
 matplotlib==3.4.3
 numpy==1.19.5
 mlflow==1.20.1
