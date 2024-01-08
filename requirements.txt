@@ -1,5 +1,11 @@
 --upgrade pip
-matplotlib==3.4.3
-numpy==1.19.5
-mlflow==1.20.1
-tensorflow==2.6.0
+
+
+tensorflow==2.5.0
+
+uvicorn
+python-multipart
+pillow
+tensorflow-serving-api==2.5.0
+matplotlib
+numpy
