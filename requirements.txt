@@ -1,8 +1,4 @@
-upgrade 
-
-
 tensorflow==2.5.0
-
 uvicorn
 python-multipart
 pillow
