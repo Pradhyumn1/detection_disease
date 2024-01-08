@@ -1,4 +1,4 @@
---upgrade pip
+pip install --upgrade pip
 
 
 tensorflow==2.5.0
