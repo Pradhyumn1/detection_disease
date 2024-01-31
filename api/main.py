@@ -13,6 +13,7 @@ app = FastAPI()
 origins = [
     "http://localhost",
     "http://localhost:3000",
+    "*",
 ]
 
 
@@ -31,6 +32,9 @@ CLASS_NAMES = ["Early Blight", "Late Blight", "Healthy"]
 @app.get("/ping")
 async def ping():
     return "Hello, I am alive"
+
+async def  root():
+     return "backend is runnig here for my ml project"
 
 def read_file_as_image(data) -> np.ndarray:
     image = np.array(Image.open(BytesIO(data)))
@@ -53,4 +57,4 @@ async def predict(
     }
 
 if __name__ == "__main__":
-    uvicorn.run(app, host='localhost', port=8000)
+    uvicorn.run(app, host='localhost', port=4000)
