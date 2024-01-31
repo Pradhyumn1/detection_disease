@@ -8,8 +8,8 @@ __pycache__/
 *.pyd
 *.pyc
 
-# React build folder
-/build/
+# React build folder (inside plant-app)
+plant-app/build/
 
 # Virtual Environment
 venv/
@@ -21,9 +21,6 @@ env/
 
 # Image uploads
 uploads/
-
-# Environment variables
-.env
 
 # PL Data folder
 pl-data/
