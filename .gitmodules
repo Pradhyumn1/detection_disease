@@ -1,0 +1,6 @@
+[submodule "plant-app"]
+	path = plant-app
+	url = https://github.com/Pradhyumn1/plant-dis.git
+[submodule "plant-app1"]
+	path = plant-app1
+	url = https://github.com/Pradhyumn1/plant-dis.git
